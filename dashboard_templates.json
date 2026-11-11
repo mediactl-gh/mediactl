@@ -1,0 +1,40 @@
+{
+    "default": {
+        "tiles": [
+            {"id": "security", "type": "security-watch", "w": 2, "h": 2},
+            {"id": "tv", "type": "tv-player", "w": 1, "h": 1},
+            {"id": "weather", "type": "weather", "w": 1, "h": 1},
+            {"id": "media", "type": "media", "w": 1, "h": 2},
+            {"id": "lights", "type": "lights-control", "w": 1, "h": 1},
+            {"id": "library", "type": "library", "w": 1, "h": 2},
+            {"id": "terminal", "type": "terminal", "w": 2, "h": 1},
+            {"id": "network", "type": "presence", "w": 1, "h": 1},
+            {"id": "assistant", "type": "assistant", "w": 1, "h": 1, "config": {"mode": "voice"}}
+        ],
+        "include_devices": true,
+        "include_cameras": true,
+        "include_audios": true,
+        "library": false,
+        "cols": 5
+    },
+    "media": {
+        "tiles": [
+            {"id": "media", "type": "media", "w": 1, "h": 2},
+            {"id": "tv", "type": "tv-player", "w": 1, "h": 1},
+            {"id": "library", "type": "library", "w": 1, "h": 2},
+            {"id": "assistant", "type": "assistant", "w": 1, "h": 1},
+            {"id": "weather", "type": "weather", "w": 1, "h": 1},
+            {"id": "lights", "type": "lights-control", "w": 1, "h": 1}
+        ],
+        "include_devices": false,
+        "include_cameras": false,
+        "include_audios": false,
+        "library": false,
+        "cols": 4,
+        "size": "big"
+    },
+    "browse": {
+        "tiles": [{"id": "browse", "type": "browse", "w": 1, "h": 1}],
+        "view": {"cols": 1, "size": "medium", "editable": false, "adjustable_columns": false}
+    }
+}
